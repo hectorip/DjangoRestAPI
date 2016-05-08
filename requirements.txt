@@ -4,6 +4,7 @@ diff-match-patch==20121119
 Django==1.9.5
 django-import-export==0.4.5
 django-social-auth==0.7.28
+djangorestframework==3.3.3
 gmane==0.1.dev25
 httplib2==0.9.2
 lxml==3.6.0
