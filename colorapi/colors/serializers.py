@@ -15,7 +15,7 @@ class GroupSerializer(serializers.HyperlinkedModelSerializer):
         fields = ('url', 'name')
 
 
-class Color(serializers.HyperlinkedModelSerializer):
+class ColorSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Color
         fields = ('name', 'hexadecimal', 'red', 'green', 'blue')
